@@ -1,0 +1,109 @@
+2024-08-01T02:45:39.661+05:30  INFO [payments,,] 6308 --- [payments] [main] c.example.payments.PaymentsApplication   : Starting PaymentsApplication using Java 17.0.11 with PID 6308 (E:\Tech - HLD LLD Scaler\payments\build\classes\java\main started by Yagnesh in E:\Tech - HLD LLD Scaler\payments)
+2024-08-01T02:45:39.665+05:30  INFO [payments,,] 6308 --- [payments] [main] c.example.payments.PaymentsApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-01T02:45:41.761+05:30  INFO [payments,,] 6308 --- [payments] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-08-01T02:45:41.776+05:30  INFO [payments,,] 6308 --- [payments] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-01T02:45:41.776+05:30  INFO [payments,,] 6308 --- [payments] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-01T02:45:41.948+05:30  INFO [payments,,] 6308 --- [payments] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-01T02:45:41.948+05:30  INFO [payments,,] 6308 --- [payments] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2182 ms
+2024-08-01T02:45:42.694+05:30  INFO [payments,,] 6308 --- [payments] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-01T02:45:43.098+05:30  INFO [payments,,] 6308 --- [payments] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-08-01T02:45:43.126+05:30  INFO [payments,,] 6308 --- [payments] [main] c.example.payments.PaymentsApplication   : Started PaymentsApplication in 5.252 seconds (process running for 6.471)
+2024-08-01T02:49:47.318+05:30  INFO [payments,,] 6308 --- [payments] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01T02:49:47.319+05:30  INFO [payments,,] 6308 --- [payments] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-01T02:49:47.321+05:30  INFO [payments,,] 6308 --- [payments] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-01T02:49:47.361+05:30  INFO [payments,,] 6308 --- [payments] [http-nio-8081-exec-1] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01T03:04:25.433+05:30  INFO [payments,,] 7408 --- [payments] [main] c.example.payments.PaymentsApplication   : Starting PaymentsApplication using Java 17.0.11 with PID 7408 (E:\Tech - HLD LLD Scaler\payments\build\classes\java\main started by Yagnesh in E:\Tech - HLD LLD Scaler\payments)
+2024-08-01T03:04:25.435+05:30  INFO [payments,,] 7408 --- [payments] [main] c.example.payments.PaymentsApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-01T03:04:26.815+05:30  INFO [payments,,] 7408 --- [payments] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-08-01T03:04:26.828+05:30  INFO [payments,,] 7408 --- [payments] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-01T03:04:26.828+05:30  INFO [payments,,] 7408 --- [payments] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-01T03:04:26.904+05:30  INFO [payments,,] 7408 --- [payments] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-01T03:04:26.905+05:30  INFO [payments,,] 7408 --- [payments] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1418 ms
+2024-08-01T03:04:27.646+05:30  INFO [payments,,] 7408 --- [payments] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-01T03:04:27.717+05:30  INFO [payments,,] 7408 --- [payments] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-08-01T03:04:27.735+05:30  INFO [payments,,] 7408 --- [payments] [main] c.example.payments.PaymentsApplication   : Started PaymentsApplication in 2.766 seconds (process running for 3.093)
+2024-08-01T03:05:27.429+05:30  INFO [payments,,] 13876 --- [payments] [main] c.example.payments.PaymentsApplication   : Starting PaymentsApplication using Java 17.0.11 with PID 13876 (E:\Tech - HLD LLD Scaler\payments\build\classes\java\main started by Yagnesh in E:\Tech - HLD LLD Scaler\payments)
+2024-08-01T03:05:27.432+05:30  INFO [payments,,] 13876 --- [payments] [main] c.example.payments.PaymentsApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-08-01T03:05:28.809+05:30  INFO [payments,,] 13876 --- [payments] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-08-01T03:05:28.821+05:30  INFO [payments,,] 13876 --- [payments] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-01T03:05:28.821+05:30  INFO [payments,,] 13876 --- [payments] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-01T03:05:28.996+05:30  INFO [payments,,] 13876 --- [payments] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-01T03:05:28.996+05:30  INFO [payments,,] 13876 --- [payments] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1508 ms
+2024-08-01T03:05:29.666+05:30  INFO [payments,,] 13876 --- [payments] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-01T03:05:29.719+05:30  INFO [payments,,] 13876 --- [payments] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-08-01T03:05:29.734+05:30  INFO [payments,,] 13876 --- [payments] [main] c.example.payments.PaymentsApplication   : Started PaymentsApplication in 2.759 seconds (process running for 3.105)
+2024-08-01T03:09:11.573+05:30  INFO [payments,,] 13876 --- [payments] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01T03:09:11.574+05:30  INFO [payments,,] 13876 --- [payments] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-01T03:09:11.576+05:30  INFO [payments,,] 13876 --- [payments] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-01T03:09:11.612+05:30  INFO [payments,,] 13876 --- [payments] [http-nio-8081-exec-1] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01 10:11:45.833  INFO [payments,,] 12616 --- [main] c.example.payments.PaymentsApplication   : Starting PaymentsApplication using Java 11.0.24 on DESKTOP-QAVE7SK with PID 12616 (E:\Tech-HLD-LLD-Scaler\payments\build\classes\java\main started by Yagnesh in E:\Tech-HLD-LLD-Scaler\payments)
+2024-08-01 10:11:45.867  INFO [payments,,] 12616 --- [main] c.example.payments.PaymentsApplication   : No active profile set, falling back to default profiles: default
+2024-08-01 10:11:48.524  INFO [payments,,] 12616 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6a1e0497-dd66-3062-ba23-0a7c6269fca9
+2024-08-01 10:11:50.048  INFO [payments,,] 12616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-08-01 10:11:50.082  INFO [payments,,] 12616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-01 10:11:50.082  INFO [payments,,] 12616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-08-01 10:11:50.200  INFO [payments,,] 12616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-01 10:11:50.218  INFO [payments,,] 12616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4185 ms
+2024-08-01 10:11:50.994  WARN [payments,,] 12616 --- [main] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect}]
+2024-08-01 10:11:52.483  INFO [payments,,] 12616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-08-01 10:11:52.677  INFO [payments,,] 12616 --- [main] c.example.payments.PaymentsApplication   : Started PaymentsApplication in 9.581 seconds (JVM running for 11.126)
+2024-08-01 10:21:48.405  INFO [payments,,] 12800 --- [main] c.example.payments.PaymentsApplication   : Starting PaymentsApplication using Java 11.0.24 on DESKTOP-QAVE7SK with PID 12800 (E:\Tech-HLD-LLD-Scaler\payments\build\classes\java\main started by Yagnesh in E:\Tech-HLD-LLD-Scaler\payments)
+2024-08-01 10:21:48.405  INFO [payments,,] 12800 --- [main] c.example.payments.PaymentsApplication   : No active profile set, falling back to default profiles: default
+2024-08-01 10:21:49.061  INFO [payments,,] 12800 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6a1e0497-dd66-3062-ba23-0a7c6269fca9
+2024-08-01 10:21:49.561  INFO [payments,,] 12800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-08-01 10:21:49.561  INFO [payments,,] 12800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-01 10:21:49.561  INFO [payments,,] 12800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2024-08-01 10:21:49.639  INFO [payments,,] 12800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-01 10:21:49.639  INFO [payments,,] 12800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1188 ms
+2024-08-01 10:21:49.858  WARN [payments,,] 12800 --- [main] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [Empty JSON_V2 message]}]
+2024-08-01 10:21:50.842  INFO [payments,,] 12800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-08-01 10:21:51.014  INFO [payments,,] 12800 --- [main] c.example.payments.PaymentsApplication   : Started PaymentsApplication in 3.154 seconds (JVM running for 3.59)
+2024-08-01 10:22:25.864  INFO [payments,,] 12800 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-01 10:22:25.866  INFO [payments,,] 12800 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-01 10:22:25.867  INFO [payments,,] 12800 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-01 10:22:25.897  INFO [payments,77d64742e8065b5e,d10ace64e88f6d63] 12800 --- [http-nio-8081-exec-1] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01 10:22:27.794  WARN [payments,,] 12800 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2024-08-01 10:22:27.831  WARN [payments,,] 12800 --- [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:69) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:151) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:169) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:159) ~[spring-cloud-sleuth-zipkin-3.0.4.jar:3.0.4]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140) ~[na:na]
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[na:na]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292) ~[na:na]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:724) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1636) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1541) ~[na:na]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[na:na]
+	at org.springframework.http.client.SimpleClientHttpResponse.getRawStatusCode(SimpleClientHttpResponse.java:55) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.hasError(DefaultResponseErrorHandler.java:64) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:807) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777) ~[spring-web-5.3.10.jar:5.3.10]
+	... 9 common frames omitted
+
+2024-08-01 10:25:46.426  INFO [payments,938e79fe31f5b7db,754f2e0a8f8eac05] 12800 --- [http-nio-8081-exec-3] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01 10:25:47.764  INFO [payments,99883741a1e01f10,0d2d82be2c17cb30] 12800 --- [http-nio-8081-exec-4] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01 10:25:48.774  INFO [payments,630a8cc1fff8a4b7,5421cd3e03795921] 12800 --- [http-nio-8081-exec-5] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01 10:25:49.797  INFO [payments,635aebb9434a154f,345b3252154f7a05] 12800 --- [http-nio-8081-exec-6] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01 10:25:50.671  INFO [payments,075a098f098409b2,e82ad5682e591366] 12800 --- [http-nio-8081-exec-7] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01 10:25:51.576  INFO [payments,7aa7c4d8a0953257,a2e556af21717143] 12800 --- [http-nio-8081-exec-8] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01 10:25:52.594  INFO [payments,96787154ecc04fe8,e80c32d7c02ecb75] 12800 --- [http-nio-8081-exec-9] c.e.payments.service.PaymentService      : Processing payment for product: 123
+2024-08-01 10:26:00.109  INFO [payments,f6fc9ad699c402d5,8d85b01455eb7568] 12800 --- [http-nio-8081-exec-10] c.e.payments.service.PaymentService      : Processing payment for product: 563
+2024-08-01 10:26:05.402  INFO [payments,3686bafb52a8f869,4935470a3c7b9a25] 12800 --- [http-nio-8081-exec-1] c.e.payments.service.PaymentService      : Processing payment for product: 892
+2024-08-01 10:26:09.827  INFO [payments,23d64fd98de8b5fc,411e547d739b093e] 12800 --- [http-nio-8081-exec-2] c.e.payments.service.PaymentService      : Processing payment for product: 1211
+2024-08-01 10:26:14.837  INFO [payments,cbc7ce4b6465c4e9,728f2c6ff8851dd2] 12800 --- [http-nio-8081-exec-3] c.e.payments.service.PaymentService      : Processing payment for product: 7817
+2024-08-01 10:45:06.106  INFO [payments,27e2cbbae7f55353,172fe6eb84f07bb7] 12800 --- [http-nio-8081-exec-5] c.e.payments.service.PaymentService      : Processing payment for product: 7817
